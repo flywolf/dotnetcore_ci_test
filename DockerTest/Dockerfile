@@ -16,4 +16,4 @@ WORKDIR /app
 COPY --from=build /app/DockerTest/out ./
 
 EXPOSE 8810
-ENTRYPOINT ["dotnet", "DockerTest.dll", "--server.urls", "http://*:8810"]
+ENTRYPOINT ["dotnet", "DockerTest.dll"]
