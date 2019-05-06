@@ -38,8 +38,9 @@ namespace DockerTest.Controllers
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            return new JsonResult("OK");
         }
     }
 }
