@@ -41,10 +41,13 @@ namespace DockerTest.Controllers
         public IActionResult Delete(int id)
         {
 
+
             return new JsonResult("OK OK OK OK OK");
 
             string str = "OK123";
             return new JsonResult(str);
+
+            return new JsonResult("OK OK OK OK OK OK");
 
         }
     }
