@@ -40,7 +40,7 @@ namespace DockerTest.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            return new JsonResult("OK OK");
+            return new JsonResult("OK OK OK");
         }
     }
 }
